@@ -1,0 +1,656 @@
+<!doctype html>
+<html class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D-Express</title>
+  <link rel="shortcut icon" href="https://i.ibb.co/F4MQvK2/medicine.png" type="image/x-icon">
+  <link href="./output.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.5.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+  <style>
+    #bannerSection {
+      background-image: url(https://i.ibb.co/7gTk1f5/Rectangle-1.png);
+      height: 100vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+#reviewSection{
+  background-image: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2850&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+body{
+  text-align: center;
+}
+ 
+  #bannerSection {  
+    background-image: url(https://i.ibb.co/hXqsgb4/Rectangle-1.png);  
+   height: 100vh;
+   
+}
+
+
+    }
+  </style>
+
+
+
+</head>
+
+<body class="">
+
+
+  <!-- Banner Section start  -->
+  <section id="bannerSection" class="pt-5 text-white relative">
+
+
+
+
+
+    <div class="absolute bottom-0 right-6 md:right-14 pb-0 "><img class="h-72 lg:h-auto " src="https://i.ibb.co/Kz17JXs/Rectangle-2.png" alt=""></div>
+
+    <div class="mx-2 md:mx-24">
+
+      <div class="navbar  ">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Refill Prescription</a></li>
+              <li><a>Buy Medicine</a></li>
+              <li><a>Contact a pharmacist</a></li>
+            </ul>
+          </div>
+          <a class="font-bold text-2xl">D-Express</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-base font-medium gap-5">
+            <li class="hover:ring hover:ring-1 hover:ring-white"><a>Refill Prescription</a></li>
+            <li class="hover:ring hover:ring-1 hover:ring-white"><a>Buy Medicine</a></li>
+            <li class="hover:ring hover:ring-1 hover:ring-white"><a>Contact a pharmacist</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a
+            class="btn rounded-full px-10 text-base font-bold bg-green-500 border-0 text-white hover:bg-green-600">Login</a>
+        </div>
+      </div>
+
+
+      <div class="w-100 md:w-2/5  md:mt-20 text-center md:text-start">
+        <h1 class="text-4xl font-bold">We can get your Drug Prescriptions to You</h1>
+        <p class="py-10">We have all the drugs your doctor prescribed for <br> your health and what’s more, we can get
+          it to you.</p>
+        <div class="flex gap-1 md:gap-3">
+          <button
+            class="hover:ring hover:ring-2 hover:ring-black px-7 bg-base-100 text-blue-800 font-semibold rounded-full py-2 border">Ikeja</button>
+          <button class="hover:ring hover:ring-2 hover:ring-white px-7 rounded-full py-2 border">VI</button>
+          <button class="hover:ring hover:ring-2 hover:ring-white px-7 rounded-full py-2 border">Lekki</button>
+          <button class="hover:ring hover:ring-2 hover:ring-white px-7 rounded-full py-2 border">Ajah</button>
+        </div>
+
+        <form action="" class="mt-10 gap-0 flex bg-white w-100 md:w-4/5 rounded-full justify-between">
+          <div class="px-3 flex items-center"><img src="https://i.ibb.co/RPxPGph/mdi-search.png" alt=""></div>
+          <input type="text" name="" placeholder="Seach for drugs in our store" class="w-[230px]">
+
+          <input type="button" value="Find drug"
+            class="bg-green-500 py-2 px-5 rounded-r-full btn border-0 text-white font-medium  hover:bg-green-600">
+        </form>
+
+      </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </section>
+  <!-- Banner Section end  -->
+
+
+  <!-- affiliation section start  -->
+  <section class="flex">
+
+
+
+    <div class="drawer lg:drawer-open">
+      <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
+      <div class="drawer-content flex flex-col items-center justify-start py-10">
+        <!-- Page content here -->
+        <label for="my-drawer-2" class="btn btn-primary drawer-button lg:hidden text-lg font-semibold px-7 hover:ease-out">Open Menu</label>
+        <div>
+
+          <div  class=" mx-2 md:mx-24">
+          <h1 class="text-blue-800 font-bold text-2xl text-center mt-5">Our Affiliations</h1>
+          <div class="flex gap-0 justify-center mt-3"><hr class="w-14 border-t-4 border-t-blue-800 rounded-l-lg"><hr class="w-14 border-t-4 border-t-green-500 rounded-r-lg"></div>
+
+          <div class="flex gap-5 md:gap-32 my-16 justify-between items-center">
+           <div> <img src="https://i.ibb.co/w6nX6Bk/image-7.png" alt=""></div>
+            <div><img src="https://i.ibb.co/QpzN6Ng/image-8.png" alt=""></div>
+           <div> <img src="https://i.ibb.co/mv6tSJp/image-9.png" alt=""></div>
+          </div>
+
+<div>
+          <h1 class="text-blue-800 font-bold text-2xl text-center ">Key Benefits</h1>
+          <div class="flex gap-0 justify-center mt-3"><hr class="w-10 border-t-4 border-t-blue-800 rounded-l-lg"><hr class="w-10 border-t-4 border-t-green-500 rounded-r-lg"></div>
+        </div>
+
+
+        <div class="grid md:grid-cols-2 justify-between items-center my-8">
+
+          <div class="col order-2 md:order-1">
+            <h1 class="text-xl text-blue-800 font-bold mb-8">All your Medicine <br> needs in one place</h1>
+            <div class="flex justify-center md:justify-statr">
+            <ul class="flex flex-col gap-5 w-3/4 md:w-96 ">
+              <li class="flex gap-3 justify-start items-center">
+                <div><img src="https://i.ibb.co/drN213V/Exclude.png" alt=""></div>
+                <p>Search and find all kind of drugs</p>
+              </li>
+              <li class="flex gap-3 justify-start items-center">
+                <div><img src="https://i.ibb.co/drN213V/Exclude.png" alt=""></div>
+                <p>We have drugs for soecial case treatments</p>
+              </li>
+              <li class="flex gap-3 justify-start items-center">
+                <div><img src="https://i.ibb.co/drN213V/Exclude.png" alt=""></div>
+                <p>Get notified when your drug is available</p>
+              </li>
+            </ul>
+         </div>
+
+
+            <button class="mx-auto md:mx-0 flex gap-4 btn text-green-400 font-medium text-lg justify-center items-center border border-green-400 rounded-full px-8 mt-5 hover:text-green-600 hover:bg-green-200 bg-white ease-in duration-300 ">Get prescription <div><img src="https://i.ibb.co/Z89bK79/chevrons-right.png" alt=""></div> </button>
+            
+          </div>
+
+
+          <div class="col order-1 md:order-2"><img src="https://i.ibb.co/YPKC7z3/Group-37.png" alt=""></div>
+
+        </div>
+
+
+
+        <div class="grid md:grid-cols-2 justify-between items-center gap-20  my-8">
+
+          <div class="col p-8 md:p-0 "><img src="https://i.ibb.co/hRj9GcK/Group-37-1.png" alt=""></div>
+
+       
+
+          <div class="col">
+            <h1 class="text-xl text-blue-800 font-bold mb-8">Get your drugs at <br> your doorstep</h1>
+            <div class="flex justify-center md:justify-statr">
+            <ul class="flex flex-col gap-5  w-3/4 md:w-96">
+              <li class="flex gap-3 justify-start items-center">
+                <div><img src="https://i.ibb.co/drN213V/Exclude.png" alt=""></div>
+                <p>Get straigh delivery to your doorstep</p>
+              </li>
+              <li class="flex gap-3 justify-start items-center">
+                <div><img src="https://i.ibb.co/drN213V/Exclude.png" alt=""></div>
+                <p>We deliver within 24hrs of request</p>
+              </li>
+              <li class="flex gap-3 justify-start items-center">
+                <div><img src="https://i.ibb.co/drN213V/Exclude.png" alt=""></div>
+                <p>We guarantee speedily response</p>
+              </li>
+            </ul>
+          </div>
+            <button class="mx-auto bg-white md:mx-0 flex gap-4 btn text-green-400 font-medium text-lg justify-center items-center border border-green-400 rounded-full px-8 mt-5 hover:text-green-600 hover:bg-green-200 ease-in duration-300 ">Get prescription <div><img src="https://i.ibb.co/Z89bK79/chevrons-right.png" alt=""></div> </button>
+            
+          </div>
+        </div>
+
+         
+
+        <div class="grid md:grid-cols-2 justify-between items-center gap-20 my-8">
+ 
+
+          <div class="col order-2 md:order-1">
+            <h1 class="text-xl text-blue-800 font-bold mb-8">Set up your profile <br> and get refill easily</h1>
+            <div class="flex justify-center md:justify-statr">
+            <ul class="flex flex-col gap-5 w-3/4 md:w-96">
+              <li class="flex gap-3 justify-start items-center">
+                <div><img src="https://i.ibb.co/drN213V/Exclude.png" alt=""></div>
+                <p>When you are a member your refill is easier</p>
+              </li>
+              <li class="flex gap-3 justify-start items-center">
+                <div><img src="https://i.ibb.co/drN213V/Exclude.png" alt=""></div>
+                <p>With one click your medicine is on it’s way</p>
+              </li>
+              <li class="flex gap-3 justify-start items-center">
+                <div><img src="https://i.ibb.co/drN213V/Exclude.png" alt=""></div>
+                <p>Select a health care specialist</p>
+              </li>
+            </ul>
+         </div>
+            <button class="mx-auto md:mx-0 bg-white flex gap-4 btn text-green-400 font-medium text-lg justify-center items-center border border-green-400 rounded-full px-8 mt-5 hover:text-green-600 hover:bg-green-200 ease-in duration-300 ">Get prescription <div><img src="https://i.ibb.co/Z89bK79/chevrons-right.png" alt=""></div> </button>
+            
+          </div>
+
+          <div class="col order-1 md:order-2"><img src="https://i.ibb.co/5YQ0ZXX/Group-37-2.png" alt=""></div>
+
+        </div>
+
+
+</div>
+
+
+
+</div>
+
+             
+
+
+      </div>
+      <div class="drawer-side">
+        <label for="my-drawer-2" aria-label="close sidebar" class="drawer-overlay"></label>
+        <ul class="menu p-4 w-72 min-h-full bg-blue-100 text-blue-950 text-base-content font-medium text-lg">
+          <!-- Sidebar content here -->
+          <li><a>Home</a></li>
+          <li><a>Contact</a></li>
+          <li><a>Create Account</a></li>
+          <li><a>Login</a></li>
+          <li><a>Sign up</a></li>
+          <li><a>Lorem</a></li>
+          <li><a>Descon to </a></li>
+          <li><a>Via Link</a></li>
+          <li><a>Linkedin</a></li>
+          <li><a>Facebook</a></li>
+          <li><a>Instagram</a></li>
+          <li><a>Google Mail</a></li>
+          <li><a>Twitter</a></li>
+          <li><a>Yahoo</a></li>
+          <li><a>Contact</a></li>
+          <li><a>Create Account</a></li>
+          <li><a>Login</a></li>
+          <li><a>Sign up</a></li>
+        </ul>
+
+      </div>
+    </div>
+
+    
+
+
+  </section>
+  <!-- affiliation section end  -->
+
+
+<!-- faq div stART -->
+
+<div class="mt-10 mx-2 md:mx-40 flex flex-col md:flex-row justify-between items-center gap-20 ">
+<div class="order-2 md:order-1"> 
+   <h1 class="text-center md:text-start text-3xl text-blue-800 font-bold mt-20 mb-10">Freequently Asked Question :</h1>
+  <div class="collapse collapse-arrow border hover:bg-blue-100">
+    <input type="radio" name="my-accordion-2" /> 
+    <div class="collapse-title text-xl font-medium ">
+      About Our Marketplace ?
+    </div>
+    <div class="collapse-content"> 
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quos inventore veniam minus omnis quae praesentium tenetur amet? Unde, quis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus dolorum neque maiores animi optio temporibus nihil, omnis assumenda consequuntur!</p>            </div>
+  </div>
+  <div class="collapse collapse-arrow border hover:bg-blue-100">
+    <input type="radio" name="my-accordion-2" /> 
+    <div class="collapse-title text-xl font-medium">
+      Why are we Trusted ?
+    </div>
+    <div class="collapse-content"> 
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quos inventore veniam minus omnis quae praesentium tenetur amet? Unde, quis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus dolorum neque maiores animi optio temporibus nihil, omnis assumenda consequuntur!</p>            </div>
+  </div>
+  <div class="collapse collapse-arrow border hover:bg-blue-100">
+    <input type="radio" name="my-accordion-2" /> 
+    <div class="collapse-title text-xl font-medium">
+      Why are we Best in this section ?
+    </div>
+    <div class="collapse-content"> 
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quos inventore veniam minus omnis quae praesentium tenetur amet? Unde, quis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus dolorum neque maiores animi optio temporibus nihil, omnis assumenda consequuntur!</p>            </div>
+  </div>
+  <div class="collapse collapse-arrow border hover:bg-blue-100">
+    <input type="radio" name="my-accordion-2" /> 
+    <div class="collapse-title text-xl font-medium">
+      Our competators ?
+    </div>
+    <div class="collapse-content"> 
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quos inventore veniam minus omnis quae praesentium tenetur amet? Unde, quis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus dolorum neque maiores animi optio temporibus nihil, omnis assumenda consequuntur!</p>            </div>
+  </div>
+</div>
+<div class="w-3/4 flex my-auto order-1 md:order-2" ><img src="https://i.ibb.co/xX3hN0T/doctor-consultation-03.jpg" alt="">
+
+</div>
+          </div>
+  <!-- faq div END -->
+  
+  
+  
+  <!-- testimonial section start  -->
+  <div class="flex justify-center my-20 mx-20">
+  <div class="stats gap-5 flex flex-col md:flex-row">
+    
+    <div class="stat px-14 shadow-lg">
+      <div class="sta px-14t-figure text-primary">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+      </div>
+      <div class="stat-title">Total Likes</div>
+      <div class="stat-value text-primary">25.6K</div>
+      <div class="stat-desc">21% more than last month</div>
+    </div>
+    
+    <div class="stat px-14 shadow-lg">
+      <div class="stat-figure text-secondary">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+      </div>
+      <div class="stat-title">Page Views</div>
+      <div class="stat-value text-secondary">2.6M</div>
+      <div class="stat-desc">21% more than last month</div>
+    </div>
+    
+    <div class="stat px-14 shadow-lg">
+      <div class="stat-figure text-secondary">
+        <div class="avatar online">
+          <div class="w-16 rounded-full">
+            <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="stat-value">86%</div>
+      <div class="stat-title">Tasks done</div>
+      <div class="stat-desc text-secondary">31 tasks remaining</div>
+    </div>
+    
+  </div>
+  </div>
+  <!-- testimonial section end -->
+
+
+  <!-- review section start -->
+  <div class="carousel w-full ">
+    
+    <div id="slide1" class="carousel-item relative w-full hero ">
+      <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full h-screen" />
+      <div class="h-[100vh] w-full bg-gray-900 bg-opacity-75 hero-overlay top-0 left-0 "></div>
+      <div class="mt-20 text-center w-full">
+        <h5 class="text-xl font-bold text-blue-500 ">Our track record</h5>
+        <h1 class="text-white text-5xl font-bold my-5">Trusted by thousands of <br class="hidden md:block">  creators worldwide</h1>
+        <p class="text-lg font-semibold text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br class="hidden md:block"> Maiores impedit perferendis suscipit eaque, iste dolor <br class="hidden md:block"> cupiditate blanditiis ratione.</p>
+        <div>
+          <div class="stats shadow mt-20 bg-opacity-70">
+  
+            <div class="stat place-items-center flex gap-10">
+              <div>
+                <img src="https://i.ibb.co/9wsBTCs/profile.png" alt="">
+              </div>
+              <div>
+              <div class="stat-value">Mr. Jhon Lincon</div>
+              <div class="stat-title">Professional Architecture</div>
+              <div class="stat-title">Rating :</div>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide5" class="btn btn-circle">❮</a> 
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+        
+    </div>
+    <div id="slide2" class="carousel-item relative w-full hero">
+      <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full h-screen" />
+      <div class="h-[100vh] w-full bg-gray-900 bg-opacity-75 hero-overlay top-0 left-0 "></div>
+      <div class="mt-20 text-center w-full">
+        <h5 class="text-xl font-bold text-blue-500 ">Our track record</h5>
+        <h1 class="text-white text-5xl font-bold my-5">Trusted by thousands of <br class="hidden md:block">  creators worldwide</h1>
+        <p class="text-lg font-semibold text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br class="hidden md:block"> Maiores impedit perferendis suscipit eaque, iste dolor <br class="hidden md:block"> cupiditate blanditiis ratione.</p>
+        <div>
+          <div class="stats shadow mt-20 bg-opacity-70">
+  
+            <div class="stat place-items-center flex gap-10">
+              <div>
+                <img src="https://i.ibb.co/9wsBTCs/profile.png" alt="">
+              </div>
+              <div>
+              <div class="stat-value">Mrs. Jeremy</div>
+              <div class="stat-title">Professional Architecture</div>
+              <div class="stat-title">Rating :</div>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide1" class="btn btn-circle">❮</a> 
+        <a href="#slide3" class="btn btn-circle">❯</a>
+      </div>
+    </div> 
+    <div id="slide3" class="carousel-item relative w-full  hero">
+      <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full h-screen" />
+      <div class="h-[100vh] w-full bg-gray-900 bg-opacity-75 hero-overlay top-0 left-0 "></div>
+      <div class="mt-20 text-center w-full">
+        <h5 class="text-xl font-bold text-blue-500 ">Our track record</h5>
+        <h1 class="text-white text-5xl font-bold my-5">Trusted by thousands of <br class="hidden md:block">  creators worldwide</h1>
+        <p class="text-lg font-semibold text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br class="hidden md:block"> Maiores impedit perferendis suscipit eaque, iste dolor <br class="hidden md:block"> cupiditate blanditiis ratione.</p>
+        <div>
+          <div class="stats shadow mt-20 bg-opacity-70">
+  
+            <div class="stat place-items-center flex gap-10">
+              <div>
+                <img src="https://i.ibb.co/9wsBTCs/profile.png" alt="">
+              </div>
+              <div>
+              <div class="stat-value">Mr. Doof</div>
+              <div class="stat-title">Professional Architecture</div>
+              <div class="stat-title">Rating :</div>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 ">
+        <a href="#slide2" class="btn btn-circle">❮</a> 
+        <a href="#slide4" class="btn btn-circle">❯</a>
+      </div>
+    </div> 
+    <div id="slide4" class="carousel-item relative w-full hero">
+      <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full h-screen" />
+      <div class="h-[100vh] w-full bg-gray-900 bg-opacity-75 hero-overlay top-0 left-0 "></div>
+      <div class="mt-20 text-center w-full">
+        <h5 class="text-xl font-bold text-blue-500 ">Our track record</h5>
+        <h1 class="text-white text-5xl font-bold my-5">Trusted by thousands of <br class="hidden md:block">  creators worldwide</h1>
+        <p class="text-lg font-semibold text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br class="hidden md:block"> Maiores impedit perferendis suscipit eaque, iste dolor <br class="hidden md:block"> cupiditate blanditiis ratione.</p>
+        <div>
+          <div class="stats shadow mt-20 bg-opacity-70">
+  
+            <div class="stat place-items-center flex gap-10">
+              <div>
+                <img src="https://i.ibb.co/9wsBTCs/profile.png" alt="">
+              </div>
+              <div>
+              <div class="stat-value">Mr. Lorem Ipsum</div>
+              <div class="stat-title">Professional Architecture</div>
+              <div class="stat-title">Rating :</div>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide3" class="btn btn-circle">❮</a> 
+        <a href="#slide5" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+    <div id="slide5" class="carousel-item relative w-full hero">
+      <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2850&q=80" class="w-full h-screen" />
+      <div class="h-[100vh] w-full bg-gray-900 bg-opacity-75 hero-overlay top-0 left-0 "></div>
+      <div class="mt-20 text-center w-full">
+        <h5 class="text-xl font-bold text-blue-500 ">Our track record</h5>
+        <h1 class="text-white text-5xl font-bold my-5">Trusted by thousands of <br class="hidden md:block">  creators worldwide</h1>
+        <p class="text-lg font-semibold text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br class="hidden md:block"> Maiores impedit perferendis suscipit eaque, iste dolor <br class="hidden md:block"> cupiditate blanditiis ratione.</p>
+        <div>
+          <div class="stats shadow mt-20 bg-opacity-70">
+  
+            <div class="stat place-items-center flex gap-10">
+              <div>
+                <img src="https://i.ibb.co/9wsBTCs/profile.png" alt="">
+              </div>
+              <div>
+              <div class="stat-value">Ms. Eda</div>
+              <div class="stat-title">Professional Architecture</div>
+              <div class="stat-title">Rating :</div>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide4" class="btn btn-circle">❮</a> 
+        <a href="#slide1" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+  </div>
+   <!-- review section end -->
+
+
+
+<!-- register section start  -->
+<section class="my-20 flex flex-col md:flex-row justify-center items-center gap-8">
+
+  <div class="w-2/5 ">
+    <h1 class="text-center text-4xl font-bold text-blue-800 mb-1">Register Now </h1>
+    <img class="" src="https://i.ibb.co/5Rn1Jqf/24070650-na-january-39.jpg" alt="">
+  </div>
+
+<div class="flex flex-col gap-3">
+ <div>
+  <input type="text" placeholder="First Name" class="input  w-[40vw] md:w-[20vw] shadow-md" />
+  <input type="text" placeholder="Last Name" class="input  w-[40vw] md:w-[20vw] shadow-md" />
+ </div>
+  <input type="email" placeholder="Email" class="input  w-[80] md:w-[40vw] shadow-md" />
+  <input type="password" placeholder="Password" class="input   w-[80] md:w-[40vw] shadow-md" />
+  <input type="number" placeholder="Phone no." class="input   w-[80] md:w-[40vw] shadow-md" />
+  <select class="select text-slate-400 text-base w-[80] md:w-[40vw] shadow-md">
+    <option disabled selected>Choose Language</option>
+    <option>Bangla</option>
+    <option>English</option>
+    <option>Spanish</option>
+    <option>Arabic</option>
+    <option>Hindi</option>
+  </select>
+  <div class="flex px-0 justify-between md:px-3 flex-col md:flex-row">
+    <label for="fname" class="text-slate-400 font-normal">Gender :</label>
+    <div class="flex justify-center gap-5">
+   <div class="flex justify-start items-center gap-3"> 
+     <input type="radio" name="radio-1" class="radio checked:bg-blue-700" checked />
+   <p>Female</p>
+  </div>
+  <div class="flex justify-start items-center gap-3"> 
+    <input type="radio" name="radio-1" class="radio checked:bg-blue-700"/>
+  <p>Male</p>
+ </div>
+</div>
+  </div>
+<input type="button" value="Register" class="input input-bordered bg-blue-800 text-white font-semibold text-xl w-[80] md:w-[40vw] focus:bg-blue-600 focus:ring focus:ring-blue-400 hover:bg-blue-600 ease-in duration-300" >
+<div>
+
+</div>
+</div>
+
+
+
+</section>
+<!-- register section end -->
+
+
+
+
+   <!-- footer section start  -->
+   <section>
+    <footer class="footer footer-center p-10 bg-blue-200 ">
+      <aside>
+        <p class="font-bold text-lg">
+          D-Express Industries Ltd. 
+        </p> 
+        <p>
+          Providing reliable tech since 1992<br/>
+          Copyright © 2024 - All right reserved</p>
+      </aside> 
+      <nav>
+        <div class="grid grid-flow-col gap-4">
+          <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
+          <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+          <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+        </div>
+      </nav>
+    </footer>
+   </section>
+   <!-- footer section end -->
+
+
+
+</body>
+
+</html>
